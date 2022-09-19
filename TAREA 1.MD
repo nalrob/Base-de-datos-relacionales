@@ -1,4 +1,3 @@
-
 #Universidad Autonoma de Nuevo Leon
 #Facultad de Ciencias Fisico Matematicas
 #Maestria en Ciencias de Datos
