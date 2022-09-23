@@ -1,12 +1,7 @@
 
--Universidad Autonoma de Nuevo León
--Facultad de Ciencias Fisico Matematicas
--Maestria en Ciencias de Datos
+# TAREA 3 Modelo relacional #
 
-+ TAREA 3
-
-# Esquema del modelo relacional #
-
++ # 1-Esquema del modelo relacional #
 
 
 employees (emp_no, first_name, last_name, gender, birth_date, hire_date)
