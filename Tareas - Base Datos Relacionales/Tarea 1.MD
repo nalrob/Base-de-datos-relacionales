@@ -1,8 +1,13 @@
-#Universidad Autonoma de Nuevo Leon
-#Facultad de Ciencias Fisico Matematicas
-#Maestria en Ciencias de Datos
+Universidad Autonoma de Nuevo Leon
+Facultad de Ciencias Fisico Matematicas
+Maestria en Ciencias de Datos
 
-TAREA 1
+# TAREA 1 Preliminares #
+
+Instrucciones: 
+(1) Crear un repositorio público de Github. Compartir el repositorio en el Teams correspondiente.
+(2)  Describir una base de datos y sus relaciones de manera no estructurada (puede ser un párrafo, lista, esquema…) con la que trabajar durante el semestre. Agrega el tipo de dato que supones tendrá cada uno de tus atributos. 
+
 
 - Fuente: 
 >Información obtenida del repositorio
@@ -64,6 +69,9 @@ Variables:
 2) amount	    int
 3) From_date   Date
 4) To_date     Date 
+
+
+(3)Investigar diferentes SGBD, elegir alguno y describirlo. Citar adecuadamente. Plagio invalida tarea. Subir esta descripción en un archivo markdown o PDF nombrado claramente (tarea 1 o algo por el estilo).
 
 +Elegir un SGBD
 >MySQL, la razón por la que lo elijo es porque desde hace un tiempo lo he escuchado como un requisito en ofertas laborales de diferentes campos, no  necesariamente en áreas de análisis de datos, asumo que tiene un gran alcance y popularidad entre empresas globales, por lo que ha despertado mi interés aprender a utilizarlo.
