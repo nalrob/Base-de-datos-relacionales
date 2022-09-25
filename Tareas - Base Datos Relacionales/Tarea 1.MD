@@ -24,13 +24,13 @@ Instrucciones:
 >Recursos Humanos de una empresa se encarga de mantenener y preservar la información histórica de la compañía, así como la información personal más relevante de los empleados de la misma. Hace uso de 6 tablas en total para almacenar toda esta información.
 
 1er tabla: Department
-Almacena todos los departamentos existentes en la compañia, estos son relacionados a su codigo de identificación.
+>Almacena todos los departamentos existentes en la compañia, estos son relacionados a su codigo de identificación.
 Variables: 
 1) Dept_no 	Varchar
 2) Dept_name	Varchar
 
 2da tabla: dept_emp
-Se almacena el historico de todas las personas que han trabajado para la compañia. En ella se relacionan todos los numeros de empleados alguna vez creados con su fecha de alta y baja, en su respectivo departamento.
+>Se almacena el historico de todas las personas que han trabajado para la compañia. En ella se relacionan todos los numeros de empleados alguna vez creados con su fecha de alta y baja, en su respectivo departamento.
 Variables:
 1) Emp_no	int
 2) Dept_no	Varchar
@@ -38,7 +38,7 @@ Variables:
 4) To_date	Date  
 
 3ra tabla: dept_manager
-Almacena la información historica de la administración de los departamentos, relaciona a cada departamento, con el empleado que ha ocupado la posición de gerente, su fecha de ingreso y salida a la posición.
+>Almacena la información historica de la administración de los departamentos, relaciona a cada departamento, con el empleado que ha ocupado la posición de gerente, su fecha de ingreso y salida a la posición.
 Variables:
 1) Emp_no	int
 2) Dept_no	Varchar
@@ -46,7 +46,7 @@ Variables:
 4) To_date	Date 
 
 4ta tabla: employee
-Almacena la información personal de los empleados, aqui se relacionan el numero de empleado al nombre del individio, su fecha de nacimiento, lugar de proveniencia y fecha de ingreso a la compañia.
+>Almacena la información personal de los empleados, aqui se relacionan el numero de empleado al nombre del individio, su fecha de nacimiento, lugar de proveniencia y fecha de ingreso a la compañia.
 Variables:
 1) Emp_no	int
 2) Birth_date	Date
@@ -56,7 +56,7 @@ Variables:
 6) Hire_date	Date
 	
 5ta tabla: title
-Almacena la información profesional de cada uno de los empleados.
+>Almacena la información profesional de cada uno de los empleados.
 Variables:
 
 1) Emp_no     int
@@ -65,7 +65,7 @@ Variables:
 4) To_date   Date 
 
 6ta tabla: salary
-Almacena el historial de los salarios ofrecidos a cada uno de los colaboradores, asi como cada una de las actualizaciones, ligadas a la fecha de inicio y fin.
+>Almacena el historial de los salarios ofrecidos a cada uno de los colaboradores, asi como cada una de las actualizaciones, ligadas a la fecha de inicio y fin.
 Variables:
 1) Emp_no	   int
 2) amount	    int
