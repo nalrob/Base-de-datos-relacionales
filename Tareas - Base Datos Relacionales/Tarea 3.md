@@ -18,10 +18,21 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 
 
 
+
+
+
+
+
 + Diagrama relacional
 
 
 ![Image text](https://github.com/nalrob/Base-de-datos-relacionales/blob/b25359d1b1150abeedd4dcb3236d034af9a6a204/DIAGRAMAER.drawio.png)
+
+
+
+
+
+
 
 
 + Operaciones mediante operadores del álgebra relacional.
