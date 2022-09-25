@@ -1,9 +1,4 @@
 
-Universidad Autónoma de Nuevo León
-
-Facultad de Ciencias Fisico Matericas
-
-Maestria en Ciencias de Datos
 
 
 # TAREA 3 Modelo relacional #
