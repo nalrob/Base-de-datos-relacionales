@@ -1,8 +1,4 @@
-Universidad Autónoma de Nuevo León
 
-Facultad de Ciencias Fisico Matericas
-
-Maestria en Ciencias de Datos
 
 # TAREA 2 MODELO ENTIDAD - RELACION #
 
