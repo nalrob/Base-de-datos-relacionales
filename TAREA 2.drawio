@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T02:33:25.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qSkq4jgdrXobdYIJ3mC4" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T19:48:19.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="x7iIzFImsvpL_u1ECAzX" version="20.3.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="3311" dy="1362" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3311" dy="1233" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -523,37 +523,37 @@
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-111" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1462" y="812" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-152" value="INT, Foreign key of Employees.emp_no" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-152" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="443" y="1349" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-153" value="DATE, Greater or equal to Salary.from_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-153" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="761" y="1323" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-154" value="DATE, Greater or equal Employees.hire_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-154" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="908" y="1200" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-157" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="900" y="1096" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-158" value="INT, Foreign Key of Departments.dept_no" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-158" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1799" y="1023" width="253" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-159" value="INT, Foreign Key of Employee.emp_no," style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-159" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1802" y="1109" width="262" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-160" value="DATE, Greater or equal to employees.hire_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-160" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1804" y="1195" width="262" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-161" value="DATE, Greater or equal to Dept_manager.from_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-161" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1802" y="1285" width="262" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-162" value="INT, Primary Key" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-162" value="INT, PK" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1859" y="694" width="253" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-163" value="VARCHAR (40)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1864" y="606" width="253" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-164" value="INT, Primary Key" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-164" value="INT, PK" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="222" y="875" width="224" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-165" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;DATE&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -571,7 +571,7 @@
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-172" value="F,M" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="16" y="504" width="151" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-173" value="INT,&lt;br&gt;Foreign Key of Employee.emp_no" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-173" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="959" y="117" width="241" height="63" as="geometry" />
         </mxCell>
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-174" value="VARCHAR (59)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -583,16 +583,16 @@
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-176" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="959" y="368" width="243" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-177" value="Greater or equal to Dept_emp.from_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-177" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1808" y="364" width="243" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-179" value="Greater or equal to Employees.Hire_date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-179" value="DATE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1806" y="282" width="243" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-180" value="INT&lt;br&gt;, Foreign Key of Employee.emp_no" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-180" value="INT&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1797" y="200" width="243" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FEJOQUFaC0oeGkW2y8xq-181" value="INT, Foreign Key of&amp;nbsp; Departments.Dept_name" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="FEJOQUFaC0oeGkW2y8xq-181" value="INT" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1786" y="116" width="243" height="63" as="geometry" />
         </mxCell>
         <mxCell id="FEJOQUFaC0oeGkW2y8xq-186" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.375;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="FEJOQUFaC0oeGkW2y8xq-172" target="FEJOQUFaC0oeGkW2y8xq-172">
