@@ -3,7 +3,7 @@
 
 # TAREA 3 Modelo relacional #
 
-
+#
 + Esquema del modelo relacional 
 #
 
@@ -26,6 +26,8 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 
 
 
+
+#
 + Diagrama relacional
 #
 
@@ -37,7 +39,7 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 
 
 
-
+#
 + Operaciones mediante operadores del álgebra relacional. 
 #
 
