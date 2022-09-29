@@ -46,23 +46,23 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 #
 
 1-. SELECCIÓN: Hacer una selección dentro de la tabla "employee" con el atributo "birth_date". Servira para seleccionar unicamente a los empleados que cumplen el mismo día.
-##
+#
  employee[birth_date*19/04/1998]
  σ birth_date=19/04/1998(employee)
 
 
 2-. PRODUCTO CARTESIANO: Que devuelva todos los atributos de las tablas "title" y "salary" al mismo tiempo
-##
+#
  Title X Salary
  Π(σ10002,20000(Title)x(σ10002,20000(salary)))
-##
+
 
 3-. INTERSECCIÓN: Que regrese los empleados con puesto de manager dentro de la tabla "dept_emp"
-##
+#
  dept_emp∩dept_manager=dept_emp-(dept_manager-dept_emp)
 
-##
+
 4-. PROYECCIÓN: Que extraiga los atributos que me interesan de la tabla "salary"
-##
+
  Πamount,from_date(salary)
-##s
+#
