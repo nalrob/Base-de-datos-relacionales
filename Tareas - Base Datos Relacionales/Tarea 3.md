@@ -54,13 +54,14 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 2-. PRODUCTO CARTESIANO: Que devuelva todos los atributos de las tablas "title" y "salary" al mismo tiempo
 +
  Title X Salary
+ Π(σ10002,20000(Title)x(σ10002,20000(salary)))
  
 
 3-. INTERSECCIÓN: Que regrese los empleados con puesto de manager dentro de la tabla "dept_emp"
 +
- dept_emp ∩ dept_manager 
+ dept_emp∩dept_manager=dept_emp-(dept_manager-dept_emp)
 
 
 4-. PROYECCIÓN: Que extraiga los atributos que me interesan de la tabla "salary"
 +
- Π amount,from_date(salary)
+ Πamount,from_date(salary)
