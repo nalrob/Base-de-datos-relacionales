@@ -3,7 +3,9 @@
 
 # TAREA 3 Modelo relacional #
 
-#
+
+
+
 + Esquema del modelo relacional 
 #
 
