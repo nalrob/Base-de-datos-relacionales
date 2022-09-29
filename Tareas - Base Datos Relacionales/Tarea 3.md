@@ -3,8 +3,9 @@
 
 # TAREA 3 Modelo relacional #
 
-+ Esquema del modelo relacional 
 
++ Esquema del modelo relacional 
+#
 
 employees (emp_no, first_name, last_name, gender, birth_date, hire_date)
 
@@ -26,18 +27,19 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 
 
 + Diagrama relacional
+#
 
-
-![Image text](https://github.com/nalrob/Base-de-datos-relacionales/blob/b25359d1b1150abeedd4dcb3236d034af9a6a204/DIAGRAMAER.drawio.png)
-
-
-
+![Image text](https://github.com/nalrob/Base-de-datos-relacionales/blob/00537d04a0ea83469096455c1f75a5575d0432e6/DIAGRAMAER.drawio.png)
 
 
 
 
 
-+ Operaciones mediante operadores del álgebra relacional.
+
+
+
++ Operaciones mediante operadores del álgebra relacional. 
+#
 
 1-. SELECCIÓN: Hacer una selección dentro de la tabla "employee" con el atributo "birth_date". Servira para seleccionar unicamente a los empleados que cumplen el mismo día.
  employee[birth_date*19/04/1998]
@@ -50,7 +52,7 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 
 3-. INTERSECCIÓN: Que regrese los empleados con puesto de manager dentro de la tabla "dept_emp"
  dept_emp ∩ dept_manager 
- 
+
 
 4-. PROYECCIÓN: Que extraiga los atributos que me interesan de la tabla "salary"
  Π amount,from_date(salary)
