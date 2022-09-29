@@ -48,12 +48,14 @@ Dept_manager (Dept_no, emp_no, from_date, to_date)
 1-. SELECCIÓN: Hacer una selección dentro de la tabla "employee" con el atributo "birth_date". Servira para seleccionar unicamente a los empleados que cumplen el mismo día.
 
  employee[birth_date*19/04/1998]
- σ birth_date=19/04/1998(employee)
+...
+ σbirth_date=19/04/1998(employee)
 
 
 2-. PRODUCTO CARTESIANO: Que devuelva todos los atributos de las tablas "title" y "salary" al mismo tiempo
 
  Title X Salary
+ ...
  Π(σ10002,20000(Title)x(σ10002,20000(salary)))
 
 
