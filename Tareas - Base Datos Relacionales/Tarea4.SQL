@@ -1,6 +1,5 @@
-create database TAREA5;
-
-use TAREA5;
+create database TAREA4;
+use TAREA4;
 
 CREATE TABLE employee(
 emp_no INT auto_increment PRIMARY KEY,
@@ -348,6 +347,8 @@ FOREIGN KEY (emp_no) REFERENCES employee(emp_no),
 FOREIGN KEY (dept_no) REFERENCES department(dept_no)
 );
 
+
+insert into dept_emp (emp_no,dept_no,from_date,to_date) values
 (10002,'d007','1996-08-03','9999-01-01'),
 (10003,'d004','1995-12-03','9999-01-01'),
 (10004,'d004','1986-12-01','9999-01-01'),
@@ -369,3 +370,4 @@ FOREIGN KEY (dept_no) REFERENCES department(dept_no)
 (10018,'d005','1987-04-03','1992-07-29'),
 (10019,'d008','1999-04-30','9999-01-01')
 ;
+
