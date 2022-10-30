@@ -225,3 +225,8 @@ insert into actividad(userid,friend_count,friendships_initiated,likes,likes_rece
 (1823173,9,8,132,45),
 (1819227,9,7,131,1),
 (1148823,9,4,141,77);
+
+Select users.userid, users.gender, actividad.friend_count from users
+join actividad on user.userid=actividad.userid
+where users.gender = 'female';
+
