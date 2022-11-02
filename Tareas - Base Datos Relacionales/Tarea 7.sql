@@ -5,13 +5,13 @@ create database fb_users;
 use fb_users;
 
 CREATE TABLE Users(
-	  userid INT primary key,
-      age INT,
-      dob_day INT,
-      dob_year INT,
-      dob_month INT,
-      gender enum ('female','male'),
-      relationship varchar(20)
+userid INT primary key,
+age INT,
+dob_day INT,
+dob_year INT,
+dob_month INT,
+gender enum ('female','male'),
+relationship varchar(20)
     );
     
 insert into Users (userid,age,dob_day,dob_year,dob_month,gender,relationship) values
@@ -25,12 +25,12 @@ insert into Users (userid,age,dob_day,dob_year,dob_month,gender,relationship) va
 (1411533,13,14,2000,1,'male','married'),
 (1121210,45,1,1991,12,'male','engaged');
 
-	CREATE TABLE actividad(
-		userid INT PRIMARY KEY,
-		friend_count INT,
-		followers INT,
-		likes_gived INT,
-		likes_received INT
+CREATE TABLE actividad(
+userid INT PRIMARY KEY,
+friend_count INT,
+followers INT,
+likes_gived INT,
+likes_received INT
     );
     
 insert into actividad(userid,friend_count,followers,likes_gived,likes_received) values
@@ -94,10 +94,10 @@ create database test_trigger;
 use test_trigger;
 
 CREATE TABLE contactos(
-	 id_persona varchar(4),
-	 ciudad varchar(15),  
-     telefono varchar(20),
-     email varchar(20)
+id_persona varchar(4),
+ciudad varchar(15),  
+telefono varchar(20),
+email varchar(20)
     );
     
 insert into contactos(id_persona,ciudad,telefono,email) values    
@@ -108,11 +108,11 @@ insert into contactos(id_persona,ciudad,telefono,email) values
 
 
 CREATE TABLE contactos2(
-	 id_persona varchar(4),
-	 ciudad varchar(15),  
-     telefono varchar(20),
-     email varchar(20),
-     fecha_registro DATETIME
+id_persona varchar(4),
+ciudad varchar(15),  
+telefono varchar(20),
+email varchar(20),
+fecha_registro DATETIME
     );
     
 create trigger añadir after insert on contactos for each row insert into contactos2 (id_persona, ciudad, telefono, email, fecha_registro) values ( new.id_persona, new.ciudad, new.telefono, new.email, now())
