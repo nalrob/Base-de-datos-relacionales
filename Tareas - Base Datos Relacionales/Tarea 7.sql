@@ -1,6 +1,6 @@
 #Tarea 7
 
-#->Creación de base de datos#
+#->Creación de base de datos
 create database fb_users;
 use fb_users;
 
@@ -43,8 +43,9 @@ insert into actividad(userid,friend_count,followers,likes_gived,likes_received) 
 (8888888,41,6,35,55),
 (1121210,920,6,35,NULL),
 (9999990,920,6,35,NULL);
+#
 
-#Creación de vistas recurrentes#
+#Creación de vistas recurrentes
 
 #Different types of the JOINs in SQL:
 
@@ -74,7 +75,8 @@ Select users.userid,users.age from users where age >30 ;
 Select users.userid,actividad.likes_received from users 
 inner join actividad on users.userid=actividad.userid where likes_received <20 ;
 
-#Investigar y crear disparador trigger#
+#
+#Investigar y crear disparador trigger
 
 #Los trigger se puede ejecutar cuando el usuario añada, actualice o elimine información de una tabla. 
 #En los comandos INSERT, UPDATE o DELETE.
