@@ -92,7 +92,7 @@ inner join actividad on users.userid=actividad.userid where likes_received <20 ;
 create database test_trigger;
 use test_trigger;
 
-	CREATE TABLE contactos(
+CREATE TABLE contactos(
 	id_persona varchar(4),
 	ciudad varchar(15),  
     telefono varchar(20),
