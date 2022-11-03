@@ -1,6 +1,8 @@
-#Tarea 7
+#Tarea 7#
 
-#->Creación de base de datos
+#PARTE 1. SUBCONSULTAS
+#1) Tener claridad del orden de la base de datos y utilidad de cada una de las tablas.
+
 create database fb_users;
 use fb_users;
 
@@ -46,10 +48,10 @@ insert into actividad(userid,friend_count,followers,likes_gived,likes_received) 
 (9999990,920,6,35,NULL);
 #
 
-#Creación de vistas recurrentes
+#2) Ejecutar vistas y subconsultas haciendo uso de JOIN, LEFT JOIN Y RIGHT JOIN.
 
 #Ejemplo.
-use fb_users;
+USE fb_users;
 
 #Uso de Join O inner Join
 Select users.gender, avg(actividad.friend_count) from users
@@ -69,8 +71,14 @@ Select users.userid,users.age from users where age >30 ;
 Select users.userid,actividad.likes_received from users 
 inner join actividad on users.userid=actividad.userid where likes_received >50 ;
 
-#
-#Investigar y crear disparador trigger
+
+
+
+
+
+
+
+#PARTE 2. DISPARADOR TRIGGER
 
 #Los trigger se pueden ejecutar siempre y cuando el usuario añada, actualice o elimine información de una tabla. 
 #En los comandos INSERT, UPDATE o DELETE.
