@@ -48,33 +48,26 @@ insert into actividad(userid,friend_count,followers,likes_gived,likes_received) 
 
 #Creación de vistas recurrentes
 
-#Different types of the JOINs in SQL:
-
-#(INNER) JOIN: Returns records that have matching values in both tables
-#LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
-#RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
-
-
-#Example.
+#Ejemplo.
 use fb_users;
 
 #Uso de Join O inner Join
-Select users.userid, users.age, avg(actividad.friend_count) from users
-join actividad on users.userid=actividad.userid group by users.age ;
+Select users.gender, avg(actividad.friend_count) from users
+join actividad on users.userid=actividad.userid group by users.gender ;
 
 #Uso de left Join
-Select users.userid,users.relationship, actividad.followers from users
+Select users.userid, actividad.followers from users
 left join actividad on users.userid=actividad.userid;
 
-#Uso de left Join
-Select users.userid,users.relationship, actividad.followers from users
+#Uso de right Join
+Select users.userid, actividad.followers from users
 right join actividad on users.userid=actividad.userid;
 
 #Subconsulta
 Select users.userid,users.age from users where age >30 ;
 
 Select users.userid,actividad.likes_received from users 
-inner join actividad on users.userid=actividad.userid where likes_received <20 ;
+inner join actividad on users.userid=actividad.userid where likes_received >50 ;
 
 #
 #Investigar y crear disparador trigger
@@ -88,7 +81,10 @@ inner join actividad on users.userid=actividad.userid where likes_received <20 ;
 #BEFORE ROW: Antes de modificar la fila de la tabla afectada por la sentencia del trigger
 #AFTER ROW: Después de modificar la fila de la tabla afectada por la sentencia del trigger
 
-#Ejemplo de Trigger
+#Ejemplo de Trigger PASO A PASO:
+
+#1) Plantea que operación deseas ejecutar y asegurate de tener la base datos y las tablas adecuadas para ello. 
+# En este caso mi trigger se ejecutara al realizar INSERTS.
 
 create database test_trigger;
 use test_trigger;
@@ -100,13 +96,6 @@ telefono varchar(20),
 email varchar(20)
     );
     
-insert into contactos(id_persona,ciudad,telefono,email) values    
-('T201',81825666,'Monclova','juany2@gmail.com');
-    
-insert into contactos(id_persona,ciudad,telefono,email) values    
-('T203',81824038,'Villahermosa','minyboti@gmail.com');
-
-
 CREATE TABLE contactos2(
 id_persona varchar(4),
 ciudad varchar(15),  
@@ -115,7 +104,26 @@ email varchar(20),
 fecha_registro DATETIME
     );
     
-create trigger añadir after insert on contactos for each row insert into contactos2 (id_persona, ciudad, telefono, email, fecha_registro) values ( new.id_persona, new.ciudad, new.telefono, new.email, now())
+#2)Una vez que creaste la base de datos y añadiste las tablas, añade tu primer insert. 
+#El esperado es que solo tengas información en contactos pues no se ha generado un trigger para que procese la información y cree el backoff de la misma.
+
+insert into contactos(id_persona,ciudad,telefono,email) values    
+('T201',81825666,'Monclova','juany2@gmail.com');
+
+Select * from contactos;
+Select * from contactos2;
+
+#3)Genera tu trigger  con la estructura siguiente:
+
+create trigger añadir after insert on contactos for each row insert into contactos2 (id_persona, ciudad, telefono, email, fecha_registro) values ( new.id_persona, new.ciudad, new.telefono, new.email, now()) ;
+
+#Al seguir añadiendo datos se debe generar un backoff de tus datos en la tabla "contactos2", con la fecha y hora del registro.
+#Si esto se cumple, esta trabajando adecuadamente.
+
+insert into contactos(id_persona,ciudad,telefono,email) values    
+('T203',81824038,'Villahermosa','minyboti@gmail.com');
+
     
     
+
 
