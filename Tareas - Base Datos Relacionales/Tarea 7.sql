@@ -72,19 +72,19 @@ inner join actividad on users.userid=actividad.userid where likes_received >50 ;
 #
 #Investigar y crear disparador trigger
 
-#Los trigger se puede ejecutar cuando el usuario añada, actualice o elimine información de una tabla. 
+#Los trigger se pueden ejecutar siempre y cuando el usuario añada, actualice o elimine información de una tabla. 
 #En los comandos INSERT, UPDATE o DELETE.
 
 #¿Cuando se puede utilizar un trigger?
-#BEFORE STATEMENT : Antes de ejecutar la sentencia
-#AFTER STATEMENT: Después de ejecutar la sentencia
-#BEFORE ROW: Antes de modificar la fila de la tabla afectada por la sentencia del trigger
-#AFTER ROW: Después de modificar la fila de la tabla afectada por la sentencia del trigger
+#>BEFORE STATEMENT : Antes de ejecutar la sentencia
+#>AFTER STATEMENT: Después de ejecutar la sentencia
+#>BEFORE ROW: Antes de modificar la fila de la tabla afectada por la sentencia del trigger
+#>AFTER ROW: Después de modificar la fila de la tabla afectada por la sentencia del trigger
 
 #Ejemplo de Trigger PASO A PASO:
 
 #1) Plantea que operación deseas ejecutar y asegurate de tener la base datos y las tablas adecuadas para ello. 
-# En este caso mi trigger se ejecutara al realizar INSERTS.
+# En este caso mi trigger se ejecutara al realizar un INSERT.
 
 create database test_trigger;
 use test_trigger;
