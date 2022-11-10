@@ -4,7 +4,7 @@ DROP PROCEDURE IF EXISTS cal_r;
 
 DELIMITER $$
 CREATE PROCEDURE cal_r(
-OUT r DECIMAL
+OUT r DECIMAL (18,18)
 )
 BEGIN
 	select sum(x*y)/(SQRT(sum(x*x))*SQRT(sum(y*y))) from (
@@ -12,7 +12,6 @@ BEGIN
 	) a into r ;
 END
 $$
-
 
 
 
